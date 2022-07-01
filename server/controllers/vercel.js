@@ -8,7 +8,9 @@ module.exports = {
     const config = await strapi.plugin(pluginId).service("config").getConfig();
     const projectId = config.buildUrl.match(/prj_[a-zA-Z\d]+/)[0];
     const r = await fetch(
-      `https://api.vercel.com/v6/deployments?projectId=${projectId}${config.teamId ? `&teamId=${config.teamId}` : ""}&limit=1`,
+      `https://api.vercel.com/v6/deployments?projectId=${projectId}${
+        config.teamId ? `&teamId=${config.teamId}` : ""
+      }&limit=1`,
       {
         headers: { Authorization: `Bearer ${config.accessToken}` },
       }

@@ -83,7 +83,7 @@ const Dashboard = ({ config }) => {
         hasRadius
       >
         <Box paddingBottom={8} style={{ fontSize: 48 }}>
-          🧱🏗
+          🏗
         </Box>
         <Box style={{ display: "flex", alignItems: "center" }}>
           <Typography variant="delta">
