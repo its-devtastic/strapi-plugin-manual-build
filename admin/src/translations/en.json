@@ -1,0 +1,5 @@
+{
+  "plugin.name": "Build website",
+  "page.current_status": "Current status",
+  "page.action": "Trigger build"
+}

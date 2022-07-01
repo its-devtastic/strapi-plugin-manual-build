@@ -1,0 +1,48 @@
+{
+  "name": "strapi-plugin-manual-build",
+  "version": "1.0.0",
+  "description": "A simple interface to manually trigger a website build.",
+  "strapi": {
+    "displayName": "Manual Build",
+    "name": "manual-build",
+    "description": "A simple interface to manually trigger a website build.",
+    "kind": "plugin"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "author": {
+    "name": "Devtastic",
+    "email": "info@devtastic.co",
+    "url": "https://devtastic.co"
+  },
+  "maintainers": [
+    {
+      "name": "Leon van der Grient",
+      "email": "leon@devtastic.co",
+      "url": "https://github.com/LeonVanDerGrient"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/devtastic-org/strapi-plugin-manual-build",
+    "type": "git"
+  },
+  "engines": {
+    "node": ">=14.x. <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "keywords": [
+    "strapi",
+    "vercel",
+    "static-site",
+    "nextjs",
+    "plugin"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "^4.2.0"
+  }
+}
