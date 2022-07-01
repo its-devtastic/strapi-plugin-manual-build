@@ -14,6 +14,13 @@
 
 ---
 
+<div align="center">
+  <img style="width: 48%; height: auto; margin-right: 8px" src="public/assets/screenshot1.png" alt="" />
+  <img style="width: 48%; height: auto;" src="public/assets/screenshot2.png" alt="" />
+</div>
+
+---
+
 A plugin for [Strapi](https://github.com/strapi/strapi) that adds an easy way 
 for non-admin CMS users to trigger a build.
 
