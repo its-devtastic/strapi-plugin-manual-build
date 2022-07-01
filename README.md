@@ -1,5 +1,5 @@
-<div align="center" width="150px">
-  <img style="width: 150px; height: auto;" src="public/assets/logo.png" alt="Logo - Strapi Manual Build plugin" />
+<div align="center" width="150">
+  <img style="width: 150px; height: auto;" width="150" src="public/assets/logo.png" alt="Logo - Strapi Manual Build plugin" />
 </div>
 <div align="center">
   <h1>Strapi v4 - Manual Build plugin</h1>
@@ -47,12 +47,12 @@ In the `config/plugins.js` file add:
 
 ```js
 module.exports = ({ env }) => ({
-  "build-button": {
+  "manual-build": {
     config: {
       provider: "vercel",
       buildUrl: env("BUILD_URL"),
       accessToken: env("VERCEL_ACCESS_TOKEN"),
-      teamId: env("VERCEL_TEAM_ID"),
+      teamId: env("VERCEL_TEAM_ID"), // optional
     }
   }
   // Other plugins

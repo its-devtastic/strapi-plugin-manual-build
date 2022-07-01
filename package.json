@@ -1,11 +1,11 @@
 {
   "name": "strapi-plugin-manual-build",
-  "version": "1.0.0",
-  "description": "A simple interface to manually trigger a website build.",
+  "version": "1.0.1",
+  "description": "A Strapi plugin that adds an easy way for non-admin CMS users to trigger a build.",
   "strapi": {
     "displayName": "Manual Build",
     "name": "manual-build",
-    "description": "A simple interface to manually trigger a website build.",
+    "description": "A Strapi plugin that adds an easy way for non-admin CMS users to trigger a build.",
     "kind": "plugin"
   },
   "devDependencies": {
